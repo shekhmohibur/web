@@ -5,7 +5,7 @@
 }
 body{
     background: #e0e5e9;
-    height: 100vh;
+    height: 87vh;
 }
 /* heading section */
 #heading{
@@ -116,7 +116,6 @@ body{
     background-position: bottom;
 }
 #footer-section{
-    height: 100px;
     background: #ffffff;
     overflow: hidden;
 }
