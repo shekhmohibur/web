@@ -25,11 +25,25 @@ body{
 .menu{
     width: 65%;
 }
-.menu-bar{
+.menu .menu-bar{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     text-transform: uppercase;
+}
+.menu .menu-bar .pages-link:hover .drop-bar{
+    display: block;
+    padding: 10px 20px;
+}
+.drop-bar > li{
+    margin-bottom: 20px;
+
+}
+.drop-bar{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color: #fff;
 }
 .menu-bar a{
     color: black;
